@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 141
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsSingle
-  Caption = 'COLS.clr editor by DenGame 2009 v0.1'
+  Caption = 'COLS editor by DenGame 2009 v0.1'
   ClientHeight = 289
   ClientWidth = 569
   Color = clBtnFace
@@ -418,7 +418,7 @@ object Form1: TForm1
   end
   object OpenDialog1: TOpenDialog
     FileName = 'COLS0000'
-    Filter = 'COLS File (*.clr)|*.clr|All Files|*.*'
+    Filter = 'COLS File (*.*)|*.*|All Files|*.*'
     Left = 216
     Top = 256
   end
