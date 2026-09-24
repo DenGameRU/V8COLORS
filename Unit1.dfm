@@ -418,13 +418,13 @@ object Form1: TForm1
   end
   object OpenDialog1: TOpenDialog
     FileName = 'COLS0000'
-    Filter = 'COLS File (*.*)|*.*|All Files|*.*'
+    Filter = 'COLS File|*.clr|All Files|*.*'
     Left = 216
     Top = 256
   end
   object SaveDialog1: TSaveDialog
     FileName = 'COLS0000'
-    Filter = 'COLS File (*.clr)|*.clr|All Files|*.*'
+    Filter = 'COLS File|*.clr|All Files|*.*'
     Left = 248
     Top = 256
   end
